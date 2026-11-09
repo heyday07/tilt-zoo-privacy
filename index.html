@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilt Zoo - Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Noto Sans JP', 'Noto Sans TC', sans-serif; line-height: 1.7; color: #333; background: #f9f9f9; }
+        .container { max-width: 800px; margin: 0 auto; padding: 24px 20px; background: #fff; min-height: 100vh; }
+        h1 { font-size: 24px; color: #1a1a2e; margin-bottom: 8px; padding-bottom: 12px; border-bottom: 3px solid #4f8a5b; }
+        .subtitle { font-size: 14px; color: #888; margin-bottom: 32px; }
+        h2 { font-size: 18px; color: #2d3436; margin-top: 28px; margin-bottom: 12px; padding-left: 12px; border-left: 4px solid #4f8a5b; }
+        h3 { font-size: 15px; color: #636e72; margin-top: 16px; margin-bottom: 8px; }
+        p { margin-bottom: 12px; font-size: 14px; }
+        ul { margin: 8px 0 16px 24px; font-size: 14px; }
+        li { margin-bottom: 6px; }
+        table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 13px; }
+        th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+        th { background: #f0f0f0; font-weight: 600; }
+        .lang-toggle { text-align: center; margin: 20px 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; }
+        .lang-toggle button { padding: 8px 16px; border: 2px solid #4f8a5b; background: #fff; color: #4f8a5b; border-radius: 20px; cursor: pointer; font-size: 13px; font-weight: 600; }
+        .lang-toggle button.active { background: #4f8a5b; color: #fff; }
+        .section { display: none; }
+        .section.active { display: block; }
+        .contact-box { background: #eef6ef; border: 1px solid #cfe3d2; border-radius: 8px; padding: 16px; margin: 20px 0; }
+        .footer { text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; font-size: 12px; color: #aaa; }
+        @media (max-width: 600px) { .container { padding: 16px 14px; } h1 { font-size: 20px; } .lang-toggle button { padding: 6px 12px; font-size: 12px; } }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="lang-toggle">
+        <button class="active" onclick="showLang('ko')">한국어</button>
+        <button onclick="showLang('en')">English</button>
+        <button onclick="showLang('ja')">日本語</button>
+        <button onclick="showLang('es')">Español</button>
+        <button onclick="showLang('zh')">繁體中文</button>
+    </div>
+
+
+    <!-- ═══ 한국어 ═══ -->
+    <div id="ko" class="section active">
+        <h1>개인정보 처리방침</h1>
+        <p class="subtitle">기우뚱 동물나라 (Tilt Zoo) · RedMoon Studio · Android · iOS · 시행일: 2026년 11월 9일</p>
+        <p>RedMoon Studio(이하 "회사")는 「개인정보 보호법」에 따라 이용자의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립·공개합니다.</p>
+        <p>기우뚱 동물나라는 <strong>계정이나 로그인을 요구하지 않으며</strong>, 게임 진행 기록은 이용자의 기기 안에만 저장됩니다. 광고(Google AdMob)가 있고, 광고를 없애는 일회성 결제가 있습니다. 이 방침은 Android(Google Play)와 iOS(App Store) 판 모두에 적용됩니다.</p>
+        <h2>1. 수집하는 개인정보 항목</h2>
+        <h3>1.1 자동으로 수집되는 정보</h3>
+        <table><tr><th>수집 항목</th><th>수집 목적</th><th>수집 주체</th></tr>
+        <tr><td>기기 정보 (기기 모델, OS 버전, 언어, 화면 크기)</td><td>앱 호환성 보장 및 오류 진단</td><td>Firebase Analytics, Crashlytics</td></tr>
+        <tr><td>앱 인스턴스 식별자 (앱 설치마다 생성되는 무작위 ID)</td><td>사용 통계 집계</td><td>Firebase Analytics</td></tr>
+        <tr><td>앱 사용 데이터 (플레이한 모드, 레벨 진행, 판이 끝난 이유, 기능 사용 빈도, 광고 노출 여부)</td><td>서비스 개선 및 난이도 조정</td><td>Firebase Analytics</td></tr>
+        <tr><td>진단 정보 (오류·크래시 로그, 오류 발생 시점의 앱·기기 상태, 앱 성능)</td><td>앱 안정성 개선 및 버그 수정</td><td>Firebase Crashlytics</td></tr>
+        <tr><td>대략적 위치 (IP 주소에서 추정한 국가·지역. IP 주소 자체는 저장하지 않음)</td><td>지역별 사용 통계, 지역별 광고 제공</td><td>Firebase Analytics, Google AdMob</td></tr>
+        <tr><td>광고 식별자 — Android: Google 광고 ID / iOS: IDFA(이용자가 '추적 허용'을 고른 경우만), IDFV</td><td>광고 제공, 광고 사기 방지, 광고 성과 측정. 맞춤 광고 여부는 이용자의 기기 설정과 동의 선택을 따릅니다</td><td>Google AdMob</td></tr>
+        <tr><td>구매 기록 (구매한 상품, 금액, 통화, 구매 시각. 카드 번호 등 결제 정보는 포함하지 않음)</td><td>구매 확인·복원, 매출 통계</td><td>Firebase Analytics, Google Play·App Store</td></tr></table>
+        <h3>1.2 이용자가 직접 제공하는 정보</h3>
+        <p>없습니다. 닉네임, 이메일, 연락처 등 이용자를 식별할 수 있는 정보를 입력받지 않습니다. 이용자가 문의 메일을 보내는 경우에만 그 메일 주소와 내용을 답변에 사용합니다.</p>
+        <h3>1.3 기기 안에만 저장되는 정보</h3>
+        <p>게임 진행 기록(깬 레벨, 점수, 코인, 도감, 설정)은 이용자의 기기에만 저장되며 회사의 서버로 전송되지 않습니다. "오늘의 도전" 알림은 기기 안에서 예약되고, 알림과 관련해 외부로 나가는 데이터는 없습니다. 결과 공유 기능은 기기의 공유 창을 여는 것이며 회사는 공유 내용을 받지 않습니다.</p>
+        <h2>2. 개인정보의 이용 목적</h2>
+        <ul><li>게임 서비스 제공 및 유지</li><li>앱 사용 분석을 통한 서비스 개선과 난이도 조정</li><li>오류 감지 및 수정</li><li>광고 제공과 광고 성과 측정</li><li>구매 확인과 복원</li></ul>
+        <h2>3. 개인정보 처리 위탁 및 제3자 서비스</h2>
+        <p>회사는 아래 서비스에 개인정보 처리를 맡깁니다(처리 위탁). 이 밖에 개인정보를 제3자에게 제공하거나 판매하지 않습니다.</p>
+        <table><tr><th>서비스</th><th>수탁자</th><th>위탁 업무</th><th>방침</th></tr>
+        <tr><td>Firebase Analytics</td><td>Google LLC</td><td>앱 사용 분석</td><td rowspan="2"><a href="https://policies.google.com/privacy">Google 개인정보처리방침</a></td></tr>
+        <tr><td>Firebase Crashlytics</td><td>Google LLC</td><td>오류 보고 및 분석</td></tr>
+        <tr><td>Google AdMob</td><td>Google LLC</td><td>광고 제공·측정</td><td><a href="https://policies.google.com/technologies/partner-sites">Google이 파트너 앱의 정보를 사용하는 방법</a></td></tr>
+        <tr><td>Google Play 결제 (Android)</td><td>Google LLC</td><td>인앱 결제 처리. 회사는 카드 번호 등 결제 정보를 받지 않습니다</td><td><a href="https://policies.google.com/privacy">Google 개인정보처리방침</a></td></tr>
+        <tr><td>App Store 결제 (iOS)</td><td>Apple Inc.</td><td>인앱 결제 처리. 회사는 카드 번호 등 결제 정보를 받지 않습니다</td><td><a href="https://www.apple.com/legal/privacy/">Apple 개인정보 처리방침</a></td></tr></table>
+        <h3>3.1 개인정보의 국외 이전</h3>
+        <table><tr><th>이전받는 자</th><th>이전 국가</th><th>이전 항목</th><th>이전 시기·방법</th><th>보유 기간</th></tr>
+        <tr><td>Google LLC (연락처: <a href="https://support.google.com/policies/contact/general_privacy_form">Google 개인정보 문의</a>)</td><td>미국 등 Google 데이터센터 소재국</td><td>1.1의 기기 정보·앱 인스턴스 식별자·앱 사용 데이터·진단 정보·대략적 위치·광고 식별자·구매 기록</td><td>앱을 쓰는 동안 네트워크로 수시 전송(암호화)</td><td>4항의 기간</td></tr></table>
+        <p>국외 이전을 원하지 않으면 앱을 삭제하면 됩니다. 광고 개인화는 5항의 방법으로 끌 수 있습니다. 다만 분석·오류 보고는 앱 운영에 필요해 앱 안에서 따로 끌 수 없습니다.</p>
+        <h2>4. 개인정보의 보유 기간 및 파기</h2>
+        <ul><li>게임 진행 데이터: 기기에만 저장. 앱 내 설정 → '진행 초기화' 또는 앱 삭제 시 즉시 삭제</li><li>분석 데이터: 수집 후 최대 14개월 보관 뒤 Google이 자동 삭제</li><li>진단(크래시) 로그: 수집 후 90일 이내 자동 삭제</li><li>광고 관련 데이터: Google AdMob의 보존 정책에 따름</li><li>문의 메일: 답변이 끝난 뒤 1년 안에 삭제</li></ul>
+        <p>파기 방법: 전자 파일은 복구할 수 없는 방법으로 삭제합니다. 회사는 종이 문서로 개인정보를 보관하지 않습니다.</p>
+        <h2>5. 이용자의 권리와 행사 방법</h2>
+        <ul><li><strong>기기 데이터 삭제:</strong> 앱 내 설정 → '진행 초기화', 또는 앱 삭제</li><li><strong>분석 데이터:</strong> 분석 데이터는 이름·연락처와 연결되지 않은 무작위 ID로만 저장되어 회사가 특정 이용자의 데이터를 찾아낼 수 없습니다. 앱을 삭제하면 다음 설치는 새 ID로 시작하며, 이전 데이터는 4항의 기간이 지나면 자동 삭제됩니다</li><li><strong>광고 개인화 거부:</strong> Android — 기기 설정 → Google → 광고(광고 ID 삭제) · iOS — 설정 → 개인정보 보호 및 보안 → 추적에서 이 앱 끄기 · EEA·영국·스위스 — 앱 설정의 '광고 동의 설정'</li><li><strong>열람·정정·삭제·처리정지 요청:</strong> 아래 이메일로 요청하시면 지체 없이 처리합니다</li></ul>
+        <h2>6. 자동 수집 장치(광고 식별자)의 설치·운영 및 거부</h2>
+        <p>앱은 웹 쿠키를 쓰지 않습니다. 대신 위 1.1의 광고 식별자와 앱 인스턴스 식별자를 씁니다. iOS에서는 처음 실행할 때 '추적 허용' 창이 뜨며, 허용하지 않으면 IDFA를 쓰지 않습니다. 거부 방법은 5항과 같습니다. 거부해도 게임은 그대로 할 수 있고, 맞춤이 아닌 광고가 나옵니다.</p>
+        <h2>7. 아동의 개인정보 보호</h2>
+        <p>이 앱은 <strong>만 13세 이상</strong>을 대상으로 하며, 아동(만 13세 미만)을 대상으로 한 서비스가 아닙니다. 법정대리인 동의가 필요한 만 14세 미만 아동의 개인정보를 의도적으로 수집하지 않습니다. 수집하는 정보에는 이름·연락처 등 아동을 식별할 수 있는 항목이 없습니다. 아동의 개인정보가 수집된 사실을 알게 된 경우 즉시 삭제합니다.</p>
+        <h2>8. 광고 및 결제에 관한 안내</h2>
+        <ul><li><strong>배너 광고:</strong> 홈·목록 화면 하단 (게임 화면에는 없음)</li><li><strong>전면 광고:</strong> 판이 끝난 뒤</li><li><strong>보상형 광고:</strong> 이용자가 선택해 끝까지 보면 코인 등 보상</li></ul>
+        <p>광고는 전 연령 등급(G)으로만 요청합니다. EEA·영국·스위스 이용자에게는 Google의 동의 관리 플랫폼(UMP)으로 동의를 받으며, 앱 설정에서 언제든 바꿀 수 있습니다. iOS에서는 그 뒤에 '추적 허용' 여부를 묻습니다.</p>
+        <p>코인으로 광고를 일정 기간 끌 수 있고, 일회성 결제(무기한 광고 제거)로 배너·전면 광고를 없앨 수 있습니다. 결제는 Android에서는 Google Play 결제 시스템이, iOS에서는 Apple App Store가 처리하며 회사는 결제 정보를 저장하지 않습니다. 결제 내역은 Android에서는 이용자의 Google 계정에, iOS에서는 Apple ID에 귀속되어 앱의 '구매 복원'으로 되살릴 수 있습니다.</p>
+        <h2>9. 개인정보의 안전성 확보 조치</h2>
+        <ul><li>SSL/TLS 암호화 전송</li><li>개인정보 최소 수집 원칙</li><li>이름·연락처 등 이용자를 직접 식별할 수 있는 정보를 수집하지 않음</li><li>회사 서버에 이용자 데이터를 보관하지 않음</li></ul>
+        <h2>10. 처리방침 변경</h2>
+        <p>변경 시 시행 7일 전에 앱 내 공지 또는 본 페이지를 통해 안내합니다.</p>
+        <h2>11. 개인정보 보호책임자 및 연락처</h2>
+        <div class="contact-box"><p><strong>개발사:</strong> RedMoon Studio (TEAMSTAR13)</p><p><strong>개인정보 보호책임자:</strong> RedMoon Studio 대표</p><p><strong>이메일:</strong> teamstar13000@gmail.com</p><p>개인정보 침해에 관한 상담은 개인정보분쟁조정위원회(1833-6972, www.kopico.go.kr), 개인정보침해신고센터(118, privacy.kisa.or.kr), 대검찰청(1301), 경찰청(182)에 문의할 수 있습니다.</p></div>
+    </div>
+
+    <!-- ═══ English ═══ -->
+    <div id="en" class="section">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Tilt Zoo · RedMoon Studio · Android · iOS · Effective: November 9, 2026</p>
+        <p>RedMoon Studio ("we") is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information when you use Tilt Zoo on Android (Google Play) or iOS (App Store).</p>
+        <p>Tilt Zoo <strong>needs no account or sign-in</strong>, and your game progress is stored only on your device. It shows ads (Google AdMob) and offers a one-time purchase that removes them.</p>
+        <h2>1. Information We Collect</h2>
+        <h3>1.1 Automatically Collected</h3>
+        <table><tr><th>Data</th><th>Purpose</th><th>Collected By</th></tr>
+        <tr><td>Device info (model, OS version, language, screen size)</td><td>Compatibility & error diagnosis</td><td>Firebase Analytics, Crashlytics</td></tr>
+        <tr><td>App instance ID (a random ID created per install)</td><td>Aggregating usage statistics</td><td>Firebase Analytics</td></tr>
+        <tr><td>Usage data (modes played, level progress, how a round ended, feature use, ad impressions)</td><td>Service improvement & difficulty tuning</td><td>Firebase Analytics</td></tr>
+        <tr><td>Diagnostics (crash logs, app and device state at the time of an error, app performance)</td><td>Stability & bug fixes</td><td>Firebase Crashlytics</td></tr>
+        <tr><td>Approximate location (country/region derived from IP; the IP address itself is not stored)</td><td>Regional usage statistics, regional ads</td><td>Firebase Analytics, Google AdMob</td></tr>
+        <tr><td>Advertising identifiers — Android: Google Advertising ID / iOS: IDFA (only if you choose "Allow Tracking"), IDFV</td><td>Serving ads, preventing ad fraud, measuring ads. Whether ads are personalized follows your device settings and consent choices</td><td>Google AdMob</td></tr>
+        <tr><td>Purchase history (product, price, currency, time; no card or payment details)</td><td>Confirming and restoring purchases, revenue statistics</td><td>Firebase Analytics, Google Play / App Store</td></tr></table>
+        <h3>1.2 Information You Provide</h3>
+        <p>None. We do not ask for a nickname, email, contacts, or any other information that could identify you. If you email us, we use your address and message only to reply.</p>
+        <h3>1.3 Information Kept Only on Your Device</h3>
+        <p>Game progress (cleared levels, scores, coins, collection, settings) is stored only on your device and never sent to our servers. The Daily Challenge reminder is scheduled on the device; no notification data leaves it. The share feature opens your device's share sheet; we do not receive what you share.</p>
+        <h2>2. How We Use Information</h2>
+        <ul><li>Providing and maintaining the game</li><li>Improving the game and tuning difficulty based on usage analytics</li><li>Detecting and fixing errors</li><li>Serving and measuring ads</li><li>Confirming and restoring purchases</li></ul>
+        <h2>3. Service Providers</h2>
+        <p>We use the services below to process data on our behalf. We do not share or sell personal information to anyone else.</p>
+        <table><tr><th>Service</th><th>Provider</th><th>Purpose</th><th>Policy</th></tr>
+        <tr><td>Firebase Analytics</td><td>Google LLC</td><td>Usage analytics</td><td rowspan="2"><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td></tr>
+        <tr><td>Firebase Crashlytics</td><td>Google LLC</td><td>Crash reports</td></tr>
+        <tr><td>Google AdMob</td><td>Google LLC</td><td>Advertising</td><td><a href="https://policies.google.com/technologies/partner-sites">How Google uses information from partner apps</a></td></tr>
+        <tr><td>Google Play Billing (Android)</td><td>Google LLC</td><td>In-app purchase processing. We never receive card numbers or other payment details</td><td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td></tr>
+        <tr><td>App Store (iOS)</td><td>Apple Inc.</td><td>In-app purchase processing. We never receive card numbers or other payment details</td><td><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></td></tr></table>
+        <p>These providers may process data on servers outside your country, including in the United States.</p>
+        <h2>4. Data Retention</h2>
+        <ul><li>Game data: on your device only. Deleted via Settings → Reset progress, or on uninstall</li><li>Analytics: kept up to 14 months, then deleted automatically by Google</li><li>Diagnostics (crash logs): deleted automatically within 90 days</li><li>Advertising data: per Google AdMob's retention policy</li><li>Support emails: deleted within a year after we reply</li></ul>
+        <h2>5. Your Choices and Rights</h2>
+        <ul><li><strong>Delete device data:</strong> Settings → Reset progress, or uninstall the app</li><li><strong>Analytics data:</strong> it is stored only under a random ID that is not linked to your name or contact details, so we cannot look up one person's data. After you uninstall, a new install starts with a new ID, and the old data is deleted when the retention period above ends</li><li><strong>Opt out of ad personalization:</strong> Android — device Settings → Google → Ads (delete advertising ID) · iOS — Settings → Privacy & Security → Tracking, turn off Tilt Zoo · EEA/UK/Switzerland — the app's Ad consent settings</li><li><strong>Access, correction or deletion requests:</strong> email us and we will respond without delay</li></ul>
+        <h2>6. Children's Privacy</h2>
+        <p>Tilt Zoo is intended for users <strong>13 and older</strong> and is not directed at children under 13. We do not knowingly collect personal information from children, and nothing we collect (no name, no contact details) can identify a child. If we learn that we have collected such information, we delete it promptly.</p>
+        <h2>7. Advertising and Purchases</h2>
+        <ul><li><strong>Banner ads:</strong> at the bottom of the home and list screens (never on the game screen)</li><li><strong>Interstitial ads:</strong> after a round ends</li><li><strong>Rewarded ads:</strong> optional; watching to the end earns coins or similar rewards</li></ul>
+        <p>We request general-audience (G) ads only. Users in the EEA, UK and Switzerland are asked for consent through Google's User Messaging Platform and can change it anytime in the app settings. On iOS, the app then asks whether to allow tracking; if you don't, the IDFA is not used.</p>
+        <p>You can pause ads for a period with coins, or remove banner and interstitial ads with a one-time purchase (no expiry). Payments are processed by Google Play Billing on Android and by the Apple App Store on iOS; we do not store payment details. The purchase is tied to your Google account (Android) or Apple ID (iOS) and can be recovered with "Restore purchase" in the app.</p>
+        <h2>8. Security</h2>
+        <ul><li>SSL/TLS encrypted transmission</li><li>Minimum data collection principle</li><li>No directly identifying information (name, contact details) is collected</li><li>No user data is kept on our own servers</li></ul>
+        <h2>9. Changes</h2>
+        <p>We will notify you of material changes at least 7 days ahead through an in-app notice or this page.</p>
+        <h2>10. Contact</h2>
+        <div class="contact-box"><p><strong>Developer:</strong> RedMoon Studio (TEAMSTAR13)</p><p><strong>Privacy officer:</strong> Representative, RedMoon Studio</p><p><strong>Email:</strong> teamstar13000@gmail.com</p></div>
+    </div>
+
+    <!-- ═══ 日本語 ═══ -->
+    <div id="ja" class="section">
+        <h1>プライバシーポリシー</h1>
+        <p class="subtitle">Tilt Zoo · RedMoon Studio · Android · iOS · 施行日: 2026年11月9日</p>
+        <p>RedMoon Studio（以下「当社」）は、お客様のプライバシーを保護することをお約束します。本ポリシーでは、Android（Google Play）版および iOS（App Store）版の Tilt Zoo をご利用いただく際の情報の収集、使用、保護について説明します。</p>
+        <p>Tilt Zooは<strong>アカウントやログインを必要とせず</strong>、ゲームの進行状況はお客様の端末内にのみ保存されます。広告（Google AdMob）があり、広告を消す一回限りの購入があります。</p>
+        <h2>1. 収集する情報</h2>
+        <h3>1.1 自動的に収集される情報</h3>
+        <table><tr><th>データ</th><th>目的</th><th>収集者</th></tr>
+        <tr><td>端末情報（モデル、OSバージョン、言語、画面サイズ）</td><td>互換性確保・エラー診断</td><td>Firebase Analytics, Crashlytics</td></tr>
+        <tr><td>アプリインスタンスID（インストールごとに生成されるランダムなID）</td><td>利用統計の集計</td><td>Firebase Analytics</td></tr>
+        <tr><td>アプリ使用データ（プレイしたモード、レベルの進行、ラウンドの終了理由、機能の使用頻度、広告の表示）</td><td>サービス改善・難易度調整</td><td>Firebase Analytics</td></tr>
+        <tr><td>診断情報（クラッシュログ、エラー発生時のアプリと端末の状態、アプリのパフォーマンス）</td><td>安定性の改善・バグ修正</td><td>Firebase Crashlytics</td></tr>
+        <tr><td>おおよその位置（IPアドレスから推定した国・地域。IPアドレス自体は保存しません）</td><td>地域別の利用統計、地域に合わせた広告</td><td>Firebase Analytics, Google AdMob</td></tr>
+        <tr><td>広告識別子 — Android：Google 広告 ID／iOS：IDFA（「トラッキングを許可」を選んだ場合のみ）、IDFV</td><td>広告の配信、広告不正の防止、広告効果の測定。パーソナライズの有無は端末の設定と同意の選択に従います</td><td>Google AdMob</td></tr>
+        <tr><td>購入履歴（商品、金額、通貨、購入日時。カード番号などの決済情報は含みません）</td><td>購入の確認・復元、売上統計</td><td>Firebase Analytics, Google Play・App Store</td></tr></table>
+        <h3>1.2 お客様が提供する情報</h3>
+        <p>ありません。ニックネーム、メールアドレス、連絡先など、お客様を特定できる情報の入力は求めません。お問い合わせメールをいただいた場合のみ、そのアドレスと内容を返信に使います。</p>
+        <h3>1.3 端末内にのみ保存される情報</h3>
+        <p>ゲームの進行状況（クリアしたレベル、スコア、コイン、図鑑、設定）はお客様の端末にのみ保存され、当社のサーバーには送信されません。「今日のチャレンジ」の通知は端末内で予約され、通知に関するデータが外部に送られることはありません。結果の共有は端末の共有画面を開くもので、当社は共有内容を受け取りません。</p>
+        <h2>2. 情報の利用目的</h2>
+        <ul><li>ゲームサービスの提供・維持</li><li>利用分析によるサービス改善と難易度調整</li><li>エラーの検出と修正</li><li>広告の配信と効果測定</li><li>購入の確認と復元</li></ul>
+        <h2>3. 外部サービス</h2>
+        <p>当社は以下のサービスにデータの処理を委託しています。これ以外の第三者に個人情報を提供・販売することはありません。</p>
+        <table><tr><th>サービス</th><th>提供者</th><th>目的</th><th>ポリシー</th></tr>
+        <tr><td>Firebase Analytics</td><td>Google LLC</td><td>利用分析</td><td rowspan="2"><a href="https://policies.google.com/privacy">Google プライバシーポリシー</a></td></tr>
+        <tr><td>Firebase Crashlytics</td><td>Google LLC</td><td>クラッシュレポート</td></tr>
+        <tr><td>Google AdMob</td><td>Google LLC</td><td>広告</td><td><a href="https://policies.google.com/technologies/partner-sites">Google によるパートナーアプリの情報の使用</a></td></tr>
+        <tr><td>Google Play 課金（Android）</td><td>Google LLC</td><td>アプリ内購入の処理。当社はカード番号などの決済情報を受け取りません</td><td><a href="https://policies.google.com/privacy">Google プライバシーポリシー</a></td></tr>
+        <tr><td>App Store（iOS）</td><td>Apple Inc.</td><td>アプリ内購入の処理。当社はカード番号などの決済情報を受け取りません</td><td><a href="https://www.apple.com/legal/privacy/">Apple プライバシーポリシー</a></td></tr></table>
+        <p>これらの事業者は、米国を含むお客様の国以外のサーバーでデータを処理する場合があります。</p>
+        <h2>4. 保存期間</h2>
+        <ul><li>ゲームデータ：端末内のみ。設定 → 進行状況をリセット、またはアンインストールで削除</li><li>分析データ：最長14か月保存したのち Google が自動削除</li><li>診断情報（クラッシュログ）：90日以内に自動削除</li><li>広告関連データ：Google AdMob の保存ポリシーに従います</li><li>お問い合わせメール：返信後1年以内に削除</li></ul>
+        <h2>5. お客様の選択と権利</h2>
+        <ul><li><strong>端末データの削除：</strong>設定 → 進行状況をリセット、またはアプリのアンインストール</li><li><strong>分析データ：</strong>氏名や連絡先と結びつかないランダムなIDでのみ保存されるため、当社が特定の方のデータを探し出すことはできません。アンインストール後の再インストールは新しいIDで始まり、以前のデータは上記の期間が過ぎると自動で削除されます</li><li><strong>広告のパーソナライズを止める：</strong>Android — 端末の設定 → Google → 広告（広告IDを削除）・iOS — 設定 → プライバシーとセキュリティ → トラッキングでこのアプリをオフ・EEA/英国/スイス — アプリ設定の「広告の同意設定」</li><li><strong>開示・訂正・削除の請求：</strong>メールでご連絡いただければ速やかに対応します</li></ul>
+        <h2>6. 子どものプライバシー</h2>
+        <p>Tilt Zoo は<strong>13歳以上</strong>の方を対象としており、13歳未満の子どもを対象としたサービスではありません。子どもの個人情報を意図的に収集することはなく、収集する情報（氏名や連絡先はなし）から子どもを特定することはできません。そのような情報を収集したことが判明した場合は、速やかに削除します。</p>
+        <h2>7. 広告と購入について</h2>
+        <ul><li><strong>バナー広告：</strong>ホームと一覧画面の下部（ゲーム画面にはありません）</li><li><strong>インタースティシャル広告：</strong>ラウンド終了後</li><li><strong>リワード広告：</strong>任意。最後まで見るとコインなどの報酬</li></ul>
+        <p>広告は全年齢向け（G）のみをリクエストします。EEA・英国・スイスのお客様には Google の同意管理プラットフォーム（UMP）で同意をいただき、アプリの設定からいつでも変更できます。iOS ではその後、トラッキングを許可するかをお尋ねします。許可しない場合、IDFA は使われません。</p>
+        <p>コインで一定期間広告を止めたり、一回限りの購入（無期限の広告削除）でバナー・全画面広告をなくしたりできます。決済は Android では Google Play 課金、iOS では Apple App Store が処理し、当社は決済情報を保存しません。購入は Android では Google アカウント、iOS では Apple ID にひも付き、アプリの「購入を復元」で戻せます。</p>
+        <h2>8. セキュリティ</h2>
+        <ul><li>SSL/TLS による暗号化通信</li><li>最小限のデータ収集</li><li>氏名・連絡先など、直接個人を特定できる情報は収集しません</li><li>当社のサーバーにお客様のデータを保管しません</li></ul>
+        <h2>9. ポリシーの変更</h2>
+        <p>重要な変更がある場合は、施行の7日前までにアプリ内のお知らせまたは本ページでお知らせします。</p>
+        <h2>10. お問い合わせ</h2>
+        <div class="contact-box"><p><strong>開発者：</strong>RedMoon Studio (TEAMSTAR13)</p><p><strong>個人情報保護責任者：</strong>RedMoon Studio 代表</p><p><strong>メール：</strong>teamstar13000@gmail.com</p></div>
+    </div>
+
+    <!-- ═══ Español ═══ -->
+    <div id="es" class="section">
+        <h1>Política de privacidad</h1>
+        <p class="subtitle">Tilt Zoo · RedMoon Studio · Android · iOS · Vigente desde: 9 de noviembre de 2026</p>
+        <p>RedMoon Studio ("nosotros") se compromete a proteger tu privacidad. Esta política explica cómo recopilamos, usamos y protegemos tu información cuando usas Tilt Zoo en Android (Google Play) o iOS (App Store).</p>
+        <p>Tilt Zoo <strong>no necesita cuenta ni inicio de sesión</strong>, y tu progreso se guarda solo en tu dispositivo. Muestra anuncios (Google AdMob) y ofrece una compra única para quitarlos.</p>
+        <h2>1. Información que recopilamos</h2>
+        <h3>1.1 Recopilada automáticamente</h3>
+        <table><tr><th>Datos</th><th>Finalidad</th><th>Quién la recopila</th></tr>
+        <tr><td>Información del dispositivo (modelo, versión del sistema, idioma, tamaño de pantalla)</td><td>Compatibilidad y diagnóstico de errores</td><td>Firebase Analytics, Crashlytics</td></tr>
+        <tr><td>ID de instancia de la app (un ID aleatorio creado en cada instalación)</td><td>Estadísticas de uso agregadas</td><td>Firebase Analytics</td></tr>
+        <tr><td>Datos de uso (modos jugados, progreso de niveles, cómo terminó una partida, uso de funciones, anuncios mostrados)</td><td>Mejorar el juego y ajustar la dificultad</td><td>Firebase Analytics</td></tr>
+        <tr><td>Diagnóstico (registros de fallos, estado de la app y del dispositivo al producirse un error, rendimiento)</td><td>Estabilidad y corrección de errores</td><td>Firebase Crashlytics</td></tr>
+        <tr><td>Ubicación aproximada (país o región deducidos de la IP; la dirección IP no se guarda)</td><td>Estadísticas por región, anuncios por región</td><td>Firebase Analytics, Google AdMob</td></tr>
+        <tr><td>Identificadores publicitarios — Android: ID de publicidad de Google / iOS: IDFA (solo si eliges "Permitir rastreo"), IDFV</td><td>Mostrar anuncios, evitar fraudes publicitarios y medirlos. La personalización depende de los ajustes del dispositivo y de tu consentimiento</td><td>Google AdMob</td></tr>
+        <tr><td>Historial de compras (producto, precio, moneda, fecha; sin datos de tarjeta ni de pago)</td><td>Confirmar y restaurar compras, estadísticas de ingresos</td><td>Firebase Analytics, Google Play / App Store</td></tr></table>
+        <h3>1.2 Información que nos das</h3>
+        <p>Ninguna. No pedimos apodo, correo, contactos ni otra información que pueda identificarte. Si nos escribes, usamos tu dirección y tu mensaje solo para responder.</p>
+        <h3>1.3 Información que solo se guarda en tu dispositivo</h3>
+        <p>El progreso (niveles superados, puntuaciones, monedas, álbum, ajustes) se guarda solo en tu dispositivo y nunca se envía a nuestros servidores. El recordatorio del Desafío diario se programa en el dispositivo; ningún dato de notificaciones sale de él. La función de compartir abre el menú de compartir del dispositivo; no recibimos lo que compartes.</p>
+        <h2>2. Cómo usamos la información</h2>
+        <ul><li>Ofrecer y mantener el juego</li><li>Mejorar el juego y ajustar la dificultad con estadísticas de uso</li><li>Detectar y corregir errores</li><li>Mostrar y medir anuncios</li><li>Confirmar y restaurar compras</li></ul>
+        <h2>3. Proveedores de servicios</h2>
+        <p>Usamos los servicios siguientes para tratar datos en nuestro nombre. No compartimos ni vendemos información personal a nadie más.</p>
+        <table><tr><th>Servicio</th><th>Proveedor</th><th>Finalidad</th><th>Política</th></tr>
+        <tr><td>Firebase Analytics</td><td>Google LLC</td><td>Estadísticas de uso</td><td rowspan="2"><a href="https://policies.google.com/privacy">Política de privacidad de Google</a></td></tr>
+        <tr><td>Firebase Crashlytics</td><td>Google LLC</td><td>Informes de fallos</td></tr>
+        <tr><td>Google AdMob</td><td>Google LLC</td><td>Publicidad</td><td><a href="https://policies.google.com/technologies/partner-sites">Cómo usa Google la información de las apps asociadas</a></td></tr>
+        <tr><td>Facturación de Google Play (Android)</td><td>Google LLC</td><td>Procesar compras en la app. Nunca recibimos números de tarjeta ni otros datos de pago</td><td><a href="https://policies.google.com/privacy">Política de privacidad de Google</a></td></tr>
+        <tr><td>App Store (iOS)</td><td>Apple Inc.</td><td>Procesar compras en la app. Nunca recibimos números de tarjeta ni otros datos de pago</td><td><a href="https://www.apple.com/legal/privacy/">Política de privacidad de Apple</a></td></tr></table>
+        <p>Estos proveedores pueden tratar datos en servidores fuera de tu país, incluidos los Estados Unidos.</p>
+        <h2>4. Conservación de datos</h2>
+        <ul><li>Datos del juego: solo en tu dispositivo. Se borran en Ajustes → Reiniciar progreso o al desinstalar</li><li>Estadísticas: se guardan hasta 14 meses y Google las borra automáticamente</li><li>Diagnóstico (registros de fallos): se borran automáticamente en 90 días</li><li>Datos publicitarios: según la política de conservación de Google AdMob</li><li>Correos de soporte: se borran en el año siguiente a nuestra respuesta</li></ul>
+        <h2>5. Tus opciones y derechos</h2>
+        <ul><li><strong>Borrar los datos del dispositivo:</strong> Ajustes → Reiniciar progreso, o desinstalar la app</li><li><strong>Datos de estadísticas:</strong> se guardan solo con un ID aleatorio que no está ligado a tu nombre ni a tus datos de contacto, así que no podemos localizar los datos de una persona. Al reinstalar se empieza con un ID nuevo, y los datos anteriores se borran al acabar el plazo indicado arriba</li><li><strong>Desactivar la personalización de anuncios:</strong> Android — Ajustes del dispositivo → Google → Anuncios (eliminar el ID de publicidad) · iOS — Ajustes → Privacidad y seguridad → Rastreo, desactiva Tilt Zoo · EEE/Reino Unido/Suiza — el ajuste "Consentimiento de anuncios" de la app</li><li><strong>Acceso, rectificación o supresión:</strong> escríbenos y responderemos sin demora</li></ul>
+        <h2>6. Privacidad de los menores</h2>
+        <p>Tilt Zoo está pensado para personas <strong>de 13 años o más</strong> y no está dirigido a menores de 13 años. No recopilamos a sabiendas información personal de menores, y nada de lo que recopilamos (sin nombre ni datos de contacto) permite identificarlos. Si descubrimos que hemos recopilado esa información, la borramos de inmediato.</p>
+        <h2>7. Anuncios y compras</h2>
+        <ul><li><strong>Banners:</strong> en la parte inferior de las pantallas de inicio y de listas (nunca en la pantalla de juego)</li><li><strong>Anuncios intersticiales:</strong> al terminar una partida</li><li><strong>Anuncios con recompensa:</strong> opcionales; si los ves hasta el final, recibes monedas u otras recompensas</li></ul>
+        <p>Solo solicitamos anuncios para todos los públicos (G). A los usuarios del EEE, Reino Unido y Suiza se les pide el consentimiento mediante la plataforma de mensajes de Google (UMP), que pueden cambiar en cualquier momento en los ajustes de la app. En iOS, después se pregunta si quieres permitir el rastreo; si no lo permites, no se usa el IDFA.</p>
+        <p>Puedes pausar los anuncios un tiempo con monedas o quitar los banners y los intersticiales con una compra única (sin caducidad). Los pagos los procesa la facturación de Google Play en Android y el App Store de Apple en iOS; no guardamos datos de pago. La compra queda ligada a tu cuenta de Google (Android) o a tu Apple ID (iOS) y se puede recuperar con "Restaurar compra" en la app.</p>
+        <h2>8. Seguridad</h2>
+        <ul><li>Transmisión cifrada con SSL/TLS</li><li>Recopilación mínima de datos</li><li>No recopilamos datos que te identifiquen directamente (nombre, contacto)</li><li>No guardamos datos de usuarios en servidores propios</li></ul>
+        <h2>9. Cambios</h2>
+        <p>Avisaremos de los cambios importantes al menos 7 días antes mediante un aviso en la app o en esta página.</p>
+        <h2>10. Contacto</h2>
+        <div class="contact-box"><p><strong>Desarrollador:</strong> RedMoon Studio (TEAMSTAR13)</p><p><strong>Responsable de privacidad:</strong> Representante de RedMoon Studio</p><p><strong>Correo:</strong> teamstar13000@gmail.com</p></div>
+    </div>
+
+    <!-- ═══ 繁體中文 ═══ -->
+    <div id="zh" class="section">
+        <h1>隱私權政策</h1>
+        <p class="subtitle">Tilt Zoo · RedMoon Studio · Android · iOS · 生效日期：2026 年 11 月 9 日</p>
+        <p>RedMoon Studio（以下簡稱「我們」）致力於保護你的隱私。本政策說明你在 Android（Google Play）或 iOS（App Store）上使用 Tilt Zoo 時，我們如何收集、使用與保護你的資訊。</p>
+        <p>Tilt Zoo <strong>不需要帳戶或登入</strong>，遊戲進度只會儲存在你的裝置中。遊戲內含廣告（Google AdMob），並提供可移除廣告的一次性購買。</p>
+        <h2>1. 我們收集的資訊</h2>
+        <h3>1.1 自動收集的資訊</h3>
+        <table><tr><th>資料</th><th>目的</th><th>收集者</th></tr>
+        <tr><td>裝置資訊（型號、作業系統版本、語言、螢幕尺寸）</td><td>確保相容性與診斷錯誤</td><td>Firebase Analytics, Crashlytics</td></tr>
+        <tr><td>應用程式執行個體 ID（每次安裝產生的隨機 ID）</td><td>彙整使用統計</td><td>Firebase Analytics</td></tr>
+        <tr><td>使用資料（玩過的模式、關卡進度、每局結束的原因、功能使用頻率、廣告顯示）</td><td>改善服務與調整難度</td><td>Firebase Analytics</td></tr>
+        <tr><td>診斷資訊（當機紀錄、發生錯誤時的應用程式與裝置狀態、效能）</td><td>提升穩定性與修正錯誤</td><td>Firebase Crashlytics</td></tr>
+        <tr><td>大略位置（由 IP 推估的國家・地區；不儲存 IP 位址本身）</td><td>地區使用統計、依地區提供廣告</td><td>Firebase Analytics, Google AdMob</td></tr>
+        <tr><td>廣告識別碼 — Android：Google 廣告 ID／iOS：IDFA（僅在你選擇「允許追蹤」時）、IDFV</td><td>提供廣告、防止廣告詐欺、評估廣告成效。是否個人化依裝置設定與你的同意選擇而定</td><td>Google AdMob</td></tr>
+        <tr><td>購買紀錄（商品、金額、幣別、購買時間；不含卡號等付款資訊）</td><td>確認與恢復購買、營收統計</td><td>Firebase Analytics, Google Play・App Store</td></tr></table>
+        <h3>1.2 你提供的資訊</h3>
+        <p>沒有。我們不會要求暱稱、電子郵件、聯絡方式等可識別你的資訊。只有在你寄信聯絡我們時，才會用你的信箱與信件內容回覆。</p>
+        <h3>1.3 只儲存在裝置中的資訊</h3>
+        <p>遊戲進度（過關紀錄、分數、金幣、圖鑑、設定）只儲存在你的裝置中，不會傳送到我們的伺服器。「每日挑戰」通知在裝置內排程，沒有任何通知資料會離開裝置。分享功能只會開啟裝置的分享畫面，我們不會收到你分享的內容。</p>
+        <h2>2. 資訊的使用目的</h2>
+        <ul><li>提供與維護遊戲服務</li><li>透過使用分析改善遊戲並調整難度</li><li>偵測與修正錯誤</li><li>提供廣告並評估成效</li><li>確認與恢復購買</li></ul>
+        <h2>3. 服務供應商</h2>
+        <p>我們委託下列服務代為處理資料。除此之外，我們不會向任何人提供或出售個人資訊。</p>
+        <table><tr><th>服務</th><th>供應商</th><th>目的</th><th>政策</th></tr>
+        <tr><td>Firebase Analytics</td><td>Google LLC</td><td>使用分析</td><td rowspan="2"><a href="https://policies.google.com/privacy">Google 隱私權政策</a></td></tr>
+        <tr><td>Firebase Crashlytics</td><td>Google LLC</td><td>當機報告</td></tr>
+        <tr><td>Google AdMob</td><td>Google LLC</td><td>廣告</td><td><a href="https://policies.google.com/technologies/partner-sites">Google 如何使用合作夥伴應用程式的資訊</a></td></tr>
+        <tr><td>Google Play 結帳（Android）</td><td>Google LLC</td><td>處理應用程式內購買。我們不會收到卡號等付款資訊</td><td><a href="https://policies.google.com/privacy">Google 隱私權政策</a></td></tr>
+        <tr><td>App Store（iOS）</td><td>Apple Inc.</td><td>處理應用程式內購買。我們不會收到卡號等付款資訊</td><td><a href="https://www.apple.com/legal/privacy/">Apple 隱私權政策</a></td></tr></table>
+        <p>這些供應商可能在你所在國家以外（包括美國）的伺服器上處理資料。</p>
+        <h2>4. 資料保存期間</h2>
+        <ul><li>遊戲資料：只在你的裝置中。可在設定 → 重置進度，或解除安裝時刪除</li><li>分析資料：最多保存 14 個月，之後由 Google 自動刪除</li><li>診斷資訊（當機紀錄）：90 天內自動刪除</li><li>廣告相關資料：依 Google AdMob 的保存政策</li><li>聯絡信件：回覆後一年內刪除</li></ul>
+        <h2>5. 你的選擇與權利</h2>
+        <ul><li><strong>刪除裝置資料：</strong>設定 → 重置進度，或解除安裝應用程式</li><li><strong>分析資料：</strong>只以不與姓名或聯絡方式連結的隨機 ID 儲存，我們無法找出特定使用者的資料。重新安裝後會以新的 ID 開始，舊資料會在上述期間結束後自動刪除</li><li><strong>關閉廣告個人化：</strong>Android — 裝置設定 → Google → 廣告（刪除廣告 ID）・iOS — 設定 → 隱私權與安全性 → 追蹤，關閉本應用程式・歐洲經濟區／英國／瑞士 — 應用程式設定中的「廣告同意設定」</li><li><strong>查詢、更正或刪除的請求：</strong>請來信，我們會盡快處理</li></ul>
+        <h2>6. 兒童隱私</h2>
+        <p>Tilt Zoo 以 <strong>13 歲以上</strong>的使用者為對象，並非為 13 歲以下兒童設計的服務。我們不會刻意收集兒童的個人資訊，且我們收集的資訊（不含姓名或聯絡方式）無法識別兒童。若得知收集到此類資訊，我們會立即刪除。</p>
+        <h2>7. 廣告與購買說明</h2>
+        <ul><li><strong>橫幅廣告：</strong>首頁與清單畫面下方（遊戲畫面中沒有）</li><li><strong>插頁式廣告：</strong>每局結束後</li><li><strong>獎勵廣告：</strong>自行選擇；看完即可獲得金幣等獎勵</li></ul>
+        <p>我們只請求適合所有年齡（G）的廣告。歐洲經濟區、英國與瑞士的使用者會透過 Google 的同意管理平台（UMP）表示同意，並可隨時在應用程式設定中變更。在 iOS 上，接著會詢問是否允許追蹤；若不允許，就不會使用 IDFA。</p>
+        <p>你可以用金幣暫停廣告一段時間，或以一次性購買（無期限移除廣告）移除橫幅與全螢幕廣告。付款在 Android 由 Google Play 結帳、在 iOS 由 Apple App Store 處理，我們不會儲存付款資訊。購買會綁定你的 Google 帳戶（Android）或 Apple ID（iOS），可在應用程式中以「恢復購買」取回。</p>
+        <h2>8. 資料安全</h2>
+        <ul><li>SSL/TLS 加密傳輸</li><li>最少收集原則</li><li>不收集可直接識別你的資訊（姓名、聯絡方式）</li><li>不在我們自己的伺服器上保存使用者資料</li></ul>
+        <h2>9. 政策變更</h2>
+        <p>有重大變更時，會在生效前至少 7 天透過應用程式內公告或本頁面通知。</p>
+        <h2>10. 聯絡方式</h2>
+        <div class="contact-box"><p><strong>開發者：</strong>RedMoon Studio (TEAMSTAR13)</p><p><strong>個人資料保護負責人：</strong>RedMoon Studio 代表人</p><p><strong>電子郵件：</strong>teamstar13000@gmail.com</p></div>
+    </div>
+
+
+    <div class="footer"><p>&copy; 2026 RedMoon Studio. All rights reserved.</p></div>
+</div>
+<script>
+function showLang(lang) {
+    document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+    document.getElementById(lang).classList.add('active');
+    document.querySelectorAll('.lang-toggle button').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+}
+</script>
+</body>
+</html>
